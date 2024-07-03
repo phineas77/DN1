@@ -5,3 +5,11 @@ V tej nalogi sem implementiral reševanje linearnega sistema enačb z uporabo SO
 Na koncu sem še to metodo uporabil za vožitev grafa v ravnino. Definiral sem funkcijo, ki za dani graf fiksira vsako drugo vozlišče in nato uporabi funkcijo za SOR iteracijo, ki konstruira vožitev grafa v ravnino, tako da ostala vozlišča zavzamejo ravnovesno lego med fiksiranimi vozlišči.
 
 Za naš primer smo vzeli preprost graf, sestavljen iz 5 vozlišč, kjer so povezave v grafu naslednje: (1, 2), (2, 3), (3, 4), (4, 1), (1, 3), (1, 5), (4, 5). Za ta graf smo preizkusili nekaj vrednosti za parameter omega in pogledali, koliko iteracij je potrebnih, da konvergira SOR. Na sliki lahko vidimo odvisnost hitrosti konvergence od izbire parametra omega:
+
+<img src="./plot_1.svg">
+
+Vidimo, da je v mojem primeru najhitrejša konvergenca dosežena pri vrednosti omega enako 1. Prav tako je razvidno, da je na splošno v tem primeru najhitrejša konvergenca dosežena za vrednost omega od 1 do okoli 1.7.
+
+Slika grafa: 
+
+<img src="./plot_15.svg">
